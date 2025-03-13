@@ -8,7 +8,10 @@ using UnityEditor.VersionControl;
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
-    public int metros = 0;
+    public TMP_Text puntosText;
+    public int puntos = 0;
+    public AudioSource audioSource;
+    public AudioClip pointSound;
 
 
     private void Awake()
@@ -22,23 +25,50 @@ public class GameManager : MonoBehaviour
         DontDestroyOnLoad(gameObject);
     }
 
-
-    void Start()
-    {
-        
-    }
+/// /////////////////////
 
 
+    //Reiniciar cuando muere
     public void RestartScene()
     {
         string currentSceneName = SceneManager.GetActiveScene().name; 
-        metros = 0;
+        puntos = 0;
         SceneManager.LoadScene(currentSceneName);
     }
    
+    //Puntos
+    public void SumarPunto()
+    {
+        puntos += 1; 
+        PlayPointSound();
+        ActualizarPuntosUI();
+    }
+    void ActualizarPuntosUI()
+    {
+        if (puntosText != null)
+
+        {
+            puntosText.text = puntos.ToString();
+        }
+    }
+
+
+    ///Audio
+    void Start()
+    {
+        if (audioSource == null)
+        {
+        audioSource = GetComponent<AudioSource>();
+        }
+    }
+
+    public void PlayPointSound()
+    {
+        audioSource.PlayOneShot(pointSound);
+    }
  private void Update()
     {
-      //  metrosText = GameObject.Find("metrosText").GetComponent<TMP_Text>(); //"metrosText" es el nombre del canvas que aun no existe
+        puntosText = GameObject.Find("puntosText").GetComponent<TMP_Text>(); //"metrosText" es el nombre del canvas que aun no existe
 
     }
 }

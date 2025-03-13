@@ -24,4 +24,14 @@ public class playercontroler : MonoBehaviour
             rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y - gravedad * Time.deltaTime);
         }
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("punto"))
+        {
+            Debug.Log("obtuviste punto");
+            GameManager.instance.SumarPunto();
+        }
+    }
+
 }
