@@ -31,9 +31,9 @@ public class GameManager : MonoBehaviour
     //Reiniciar cuando muere
     public void RestartScene()
     {
-        string currentSceneName = SceneManager.GetActiveScene().name; 
+        /*string currentSceneName = SceneManager.GetActiveScene().name; 
         puntos = 0;
-        SceneManager.LoadScene(currentSceneName);
+        SceneManager.LoadScene(currentSceneName); */
     }
    
     //Puntos
@@ -71,4 +71,15 @@ public class GameManager : MonoBehaviour
         puntosText = GameObject.Find("puntosText").GetComponent<TMP_Text>(); //"metrosText" es el nombre del canvas que aun no existe
 
     }
+
+    private void OnTriggerEnter2D(Collider2D ether)
+    {
+        if(ether.CompareTag("obstaculo"))
+        {
+            Debug.Log("Game Over");
+            FindAnyObjectByType<GameOver>().MostrarGameOver();
+        }
+
+    }
+
 }
