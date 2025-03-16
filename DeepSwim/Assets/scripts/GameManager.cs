@@ -25,17 +25,23 @@ public class GameManager : MonoBehaviour
         DontDestroyOnLoad(gameObject);
     }
 
-/// /////////////////////
+    /// /////////////////////
 
 
     //Reiniciar cuando muere
-    public void RestartScene()
-    {
-        /*string currentSceneName = SceneManager.GetActiveScene().name; 
-        puntos = 0;
-        SceneManager.LoadScene(currentSceneName); */
-    }
-   
+
+    //public void RestartScene()
+    //{
+    //    string currentSceneName = SceneManager.GetActiveScene().name;
+    //    puntos = 0;
+    //    SceneManager.LoadScene(currentSceneName);
+    //}
+
+ 
+
+
+
+
     //Puntos
     public void SumarPunto()
     {
@@ -52,6 +58,11 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    private void Update()
+    {
+        puntosText = GameObject.Find("puntosText").GetComponent<TMP_Text>(); //"metrosText" es el nombre del canvas que aun no existe
+
+    }
 
     ///Audio
     void Start()
@@ -66,13 +77,11 @@ public class GameManager : MonoBehaviour
     {
         audioSource.PlayOneShot(pointSound);
     }
- private void Update()
-    {
-        puntosText = GameObject.Find("puntosText").GetComponent<TMP_Text>(); //"metrosText" es el nombre del canvas que aun no existe
 
-    }
 
-    private void OnTriggerEnter2D(Collider2D ether)
+
+
+  /*  private void OnTriggerEnter2D(Collider2D ether)
     {
         if(ether.CompareTag("obstaculo"))
         {
@@ -80,6 +89,6 @@ public class GameManager : MonoBehaviour
             FindAnyObjectByType<GameOver>().MostrarGameOver();
         }
 
-    }
+    } */
 
 }

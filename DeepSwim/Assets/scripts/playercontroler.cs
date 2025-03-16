@@ -1,6 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using TMPro;
+
 
 public class playercontroler : MonoBehaviour
 {
@@ -29,9 +32,17 @@ public class playercontroler : MonoBehaviour
     {
         if (collision.CompareTag("punto"))
         {
-            Debug.Log("obtuviste punto");
+            Debug.Log("Obtuviste punto");
             GameManager.instance.SumarPunto();
         }
+    //    else if (collision.CompareTag("obstaculo"))
+    //    {
+    //        Debug.Log("Game Over");
+    //        FindAnyObjectByType<GameOver>().MostrarGameOver();
+    //    }
     }
+
+
+
 
 }
