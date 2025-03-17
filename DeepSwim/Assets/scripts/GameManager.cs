@@ -60,8 +60,7 @@ public class GameManager : MonoBehaviour
 
     private void Update()
     {
-        puntosText = GameObject.Find("puntosText").GetComponent<TMP_Text>(); //"metrosText" es el nombre del canvas que aun no existe
-
+        puntosText = GameObject.Find("puntosText").GetComponent<TMP_Text>(); //"
     }
 
     ///Audio
