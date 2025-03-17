@@ -9,18 +9,17 @@ public class camaramov : MonoBehaviour
 
     void Update()
     {
-          if (jugador == null)
-           {
-               Debug.LogWarning("NO HAGAS CASO TE AMO, No se asignó el jugador a la cámara ñia");
-               return;
-           }
+        if (jugador == null)
+        {
+            Debug.LogWarning("No se asignó el jugador a la cámara.");
+            return;
+        }
 
-           // Mantener la posición X fija (no se mueve lateralmente)
-           Vector3 posicionNueva = transform.position;
-           posicionNueva.y = jugador.position.y + offset.y;
+        // Mantener la posición X fija (no se mueve lateralmente)
+        Vector3 posicionNueva = transform.position;
+        posicionNueva.y = jugador.position.y + offset.y;
 
-           // Aplicar nueva posición a la cámara
-           transform.position = posicionNueva;   
-        
+        // Aplicar nueva posición a la cámara
+        transform.position = posicionNueva;
     }
 }
