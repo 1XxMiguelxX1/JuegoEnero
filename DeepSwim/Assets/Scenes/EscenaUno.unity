@@ -266,6 +266,7 @@ RectTransform:
   m_AnchoredPosition: {x: 25.8, y: 101.9}
   m_SizeDelta: {x: 576, y: 324}
   m_Pivot: {x: 0.5, y: 0.5}
+<<<<<<< HEAD
 --- !u!1 &81579051
 GameObject:
   m_ObjectHideFlags: 0
@@ -415,6 +416,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   puntosText: {fileID: 0}
   gameOverPanel: {fileID: 1071359882}
+=======
+>>>>>>> parent of 0a5e443 (borre lo repeetido)
 --- !u!1 &215375439
 GameObject:
   m_ObjectHideFlags: 0
@@ -425,7 +428,10 @@ GameObject:
   m_Component:
   - component: {fileID: 215375441}
   - component: {fileID: 215375440}
+<<<<<<< HEAD
   - component: {fileID: 215375442}
+=======
+>>>>>>> parent of 0a5e443 (borre lo repeetido)
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -445,10 +451,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5fb1d4b0e6eb17f4c80fb91e2f09b391, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   puntosText: {fileID: 542128425}
   puntos: 0
   audioSource: {fileID: 0}
   pointSound: {fileID: 8300000, guid: 68e6c24e6041d554485421bf96da3120, type: 3}
+=======
+  metros: 0
+>>>>>>> parent of 0a5e443 (borre lo repeetido)
 --- !u!4 &215375441
 Transform:
   m_ObjectHideFlags: 0
@@ -464,6 +474,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!82 &215375442
 AudioSource:
   m_ObjectHideFlags: 0
@@ -606,6 +617,8 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> parent of 0a5e443 (borre lo repeetido)
 --- !u!1 &340997371
 GameObject:
   m_ObjectHideFlags: 0
@@ -630,14 +643,23 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 340997371}
   serializedVersion: 2
+<<<<<<< HEAD
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -15.555905, y: -4.366379, z: -264.41797}
+=======
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.2905672, y: -8.660208, z: 201.6885}
+>>>>>>> parent of 0a5e443 (borre lo repeetido)
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2106382431}
   - {fileID: 1649263469}
+<<<<<<< HEAD
   m_Father: {fileID: 460797310}
+=======
+  m_Father: {fileID: 0}
+>>>>>>> parent of 0a5e443 (borre lo repeetido)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &430741660
 GameObject:
@@ -701,7 +723,11 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
+<<<<<<< HEAD
   orthographic size: 4.6253257
+=======
+  orthographic size: 5.014696
+>>>>>>> parent of 0a5e443 (borre lo repeetido)
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -726,8 +752,13 @@ Transform:
   m_GameObject: {fileID: 430741660}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+<<<<<<< HEAD
   m_LocalPosition: {x: -2.16, y: -0.73, z: -10}
   m_LocalScale: {x: 0.90833, y: 1, z: 1}
+=======
+  m_LocalPosition: {x: -1.24, y: -0.73, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+>>>>>>> parent of 0a5e443 (borre lo repeetido)
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -746,6 +777,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   jugador: {fileID: 1326481063}
   offset: {x: 0, y: 0}
+<<<<<<< HEAD
 --- !u!1 &460797309
 GameObject:
   m_ObjectHideFlags: 0
@@ -914,6 +946,8 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 542128423}
   m_CullTransparentMesh: 1
+=======
+>>>>>>> parent of 0a5e443 (borre lo repeetido)
 --- !u!1 &595817480
 GameObject:
   m_ObjectHideFlags: 0
@@ -1057,7 +1091,11 @@ Transform:
   m_GameObject: {fileID: 846896899}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
+<<<<<<< HEAD
   m_LocalPosition: {x: -7.2571735, y: -15.78, z: -232.4064}
+=======
+  m_LocalPosition: {x: -7.2571735, y: -15.84675, z: -232.4064}
+>>>>>>> parent of 0a5e443 (borre lo repeetido)
   m_LocalScale: {x: 4.183436, y: 3.7622962, z: 3.3691196}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1115,6 +1153,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+<<<<<<< HEAD
 --- !u!1 &1037548792
 GameObject:
   m_ObjectHideFlags: 0
@@ -1679,6 +1718,8 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1141225091}
   m_CullTransparentMesh: 1
+=======
+>>>>>>> parent of 0a5e443 (borre lo repeetido)
 --- !u!1 &1175094691
 GameObject:
   m_ObjectHideFlags: 0
@@ -1842,7 +1883,11 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -6.3, y: -1.09, z: 0}
+<<<<<<< HEAD
   m_LocalScale: {x: 0.10000001, y: 0.1, z: 0.1}
+=======
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
+>>>>>>> parent of 0a5e443 (borre lo repeetido)
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1945,6 +1990,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 32.57938, y: 10.3714285}
   m_EdgeRadius: 0
+<<<<<<< HEAD
 --- !u!1 &1386541643
 GameObject:
   m_ObjectHideFlags: 0
@@ -2075,6 +2121,8 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1484765244}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> parent of 0a5e443 (borre lo repeetido)
 --- !u!1 &1428540368
 GameObject:
   m_ObjectHideFlags: 0
@@ -2088,7 +2136,11 @@ GameObject:
   - component: {fileID: 1428540371}
   m_Layer: 0
   m_Name: limitSuelo
+<<<<<<< HEAD
   m_TagString: obstaculo
+=======
+  m_TagString: Untagged
+>>>>>>> parent of 0a5e443 (borre lo repeetido)
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2165,6 +2217,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 521b2d14e6f6aca4498d918fc43c98c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
 --- !u!1 &1451467383
 GameObject:
   m_ObjectHideFlags: 0
@@ -2298,6 +2351,8 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1451467383}
   m_CullTransparentMesh: 1
+=======
+>>>>>>> parent of 0a5e443 (borre lo repeetido)
 --- !u!1 &1484765243
 GameObject:
   m_ObjectHideFlags: 0
@@ -2331,7 +2386,10 @@ Transform:
   - {fileID: 1188015952}
   - {fileID: 1696039096}
   - {fileID: 1428540370}
+<<<<<<< HEAD
   - {fileID: 1386541646}
+=======
+>>>>>>> parent of 0a5e443 (borre lo repeetido)
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1649263468
@@ -2563,6 +2621,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 595817481}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
+<<<<<<< HEAD
 --- !u!1 &1962782024
 GameObject:
   m_ObjectHideFlags: 0
@@ -2697,6 +2756,8 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1962782024}
   m_CullTransparentMesh: 1
+=======
+>>>>>>> parent of 0a5e443 (borre lo repeetido)
 --- !u!1 &2061811083
 GameObject:
   m_ObjectHideFlags: 0
@@ -2926,7 +2987,11 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
+<<<<<<< HEAD
   m_AdditionalShaderChannelsFlag: 25
+=======
+  m_AdditionalShaderChannelsFlag: 0
+>>>>>>> parent of 0a5e443 (borre lo repeetido)
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
@@ -2937,9 +3002,16 @@ SceneRoots:
   m_Roots:
   - {fileID: 430741663}
   - {fileID: 1326481063}
+<<<<<<< HEAD
+=======
+  - {fileID: 340997372}
+>>>>>>> parent of 0a5e443 (borre lo repeetido)
   - {fileID: 2061811085}
   - {fileID: 1175094693}
   - {fileID: 1484765244}
   - {fileID: 215375441}
+<<<<<<< HEAD
   - {fileID: 460797310}
   - {fileID: 233451714}
+=======
+>>>>>>> parent of 0a5e443 (borre lo repeetido)

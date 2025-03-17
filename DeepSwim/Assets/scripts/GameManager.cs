@@ -8,10 +8,14 @@ using UnityEditor.VersionControl;
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
+<<<<<<< HEAD
     public TMP_Text puntosText;
     public int puntos = 0;
     public AudioSource audioSource;
     public AudioClip pointSound;
+=======
+    public int metros = 0;
+>>>>>>> parent of 0a5e443 (borre lo repeetido)
 
 
     private void Awake()
@@ -25,6 +29,7 @@ public class GameManager : MonoBehaviour
         DontDestroyOnLoad(gameObject);
     }
 
+<<<<<<< HEAD
     /// /////////////////////
 
 
@@ -90,4 +95,25 @@ public class GameManager : MonoBehaviour
 
     } */
 
+=======
+
+    void Start()
+    {
+        
+    }
+
+
+    public void RestartScene()
+    {
+        string currentSceneName = SceneManager.GetActiveScene().name; 
+        metros = 0;
+        SceneManager.LoadScene(currentSceneName);
+    }
+   
+ private void Update()
+    {
+      //  metrosText = GameObject.Find("metrosText").GetComponent<TMP_Text>(); //"metrosText" es el nombre del canvas que aun no existe
+
+    }
+>>>>>>> parent of 0a5e443 (borre lo repeetido)
 }

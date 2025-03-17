@@ -1,9 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+<<<<<<< HEAD
 using UnityEngine.SceneManagement;
 using TMPro;
 
+=======
+>>>>>>> parent of 0a5e443 (borre lo repeetido)
 
 public class playercontroler : MonoBehaviour
 {
@@ -27,6 +30,7 @@ public class playercontroler : MonoBehaviour
             rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y - gravedad * Time.deltaTime);
         }
     }
+<<<<<<< HEAD
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -45,4 +49,6 @@ public class playercontroler : MonoBehaviour
 
 
 
+=======
+>>>>>>> parent of 0a5e443 (borre lo repeetido)
 }
