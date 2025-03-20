@@ -80,14 +80,6 @@ public class GameManager : MonoBehaviour
 
 
 
-  /*  private void OnTriggerEnter2D(Collider2D ether)
-    {
-        if(ether.CompareTag("obstaculo"))
-        {
-            Debug.Log("Game Over");
-            FindAnyObjectByType<GameOver>().MostrarGameOver();
-        }
 
-    } */
 
 }
