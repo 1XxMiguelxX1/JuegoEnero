@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7da71ffc1964bd34d994118a3d586c4d
+guid: 9d414db3932319644a79f88d19ec744d
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -119,207 +119,68 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Windows Store Apps
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: haut1
+      name: bajada_Bucle_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 1088
-        width: 804
-        height: 314
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        y: 724
+        width: 788
+        height: 265
+      alignment: 9
+      pivot: {x: 0.5673812, y: 0.67786944}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e21417ebc4ea0ec4bb1bacd2bca64937
-      internalID: -308252002
+      spriteID: 884c3a4c0bf232840913deed2b5b19cf
+      internalID: 348051066
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: burbu1
-      rect:
-        serializedVersion: 2
-        x: 897
-        y: 1094
-        width: 804
-        height: 314
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 73b3292c0ccc76a439a6450516add17f
-      internalID: 291313165
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: haut_2
+      name: bajada_Bucle_1
       rect:
         serializedVersion: 2
         x: 0
-        y: 772
-        width: 803
-        height: 314
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        y: 392
+        width: 788
+        height: 265
+      alignment: 9
+      pivot: {x: 0.5673812, y: 0.5426306}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: db7ec86c3ac8e7349a99adfe700e63df
-      internalID: -91261800
+      spriteID: 0d709fed2ea0bf34caae69a7b0d2a12b
+      internalID: -849791451
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: burbu3
-      rect:
-        serializedVersion: 2
-        x: 898
-        y: 669
-        width: 804
-        height: 314
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 535cb1aa17f7564448d180939e777712
-      internalID: -1130414563
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: haut_3
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 500
-        width: 803
-        height: 314
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ba453ab1b2ebcc84aa695180c1d2ff6c
-      internalID: 2094229786
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: burbu2
-      rect:
-        serializedVersion: 2
-        x: 920
-        y: 268
-        width: 804
-        height: 314
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6e78892e5fdc2a247b1a982b38d04bc3
-      internalID: 1465552651
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: haut_4
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 222
-        width: 803
-        height: 314
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5a8f9ea0d7ea6a34fb726c3ef92c6810
-      internalID: -1976271064
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: haut_7
-      rect:
-        serializedVersion: 2
-        x: 862
-        y: 0
-        width: 862
-        height: 170
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fa20e36a17d6f9e48938c707b38f1b25
-      internalID: -1578060559
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: haut_5
+      name: bajada_Bucle_2
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 803
-        height: 254
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 788
+        height: 265
+      alignment: 9
+      pivot: {x: 0.5670314, y: 0.5151003}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d54a662f1a4060246be54dcbe3b8c92d
-      internalID: 576597384
+      spriteID: cc18a302324d8c142aca5a311c57e1d6
+      internalID: 1944661852
       vertices: []
       indices: 
       edges: []
@@ -335,15 +196,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      burbu1: 291313165
-      burbu2: 1465552651
-      burbu3: -1130414563
-      haut1: -308252002
-      haut_2: -91261800
-      haut_3: 2094229786
-      haut_4: -1976271064
-      haut_5: 576597384
-      haut_7: -1578060559
+      bajada_Bucle_0: 348051066
+      bajada_Bucle_1: -849791451
+      bajada_Bucle_2: 1944661852
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
