@@ -11,8 +11,8 @@ public class Menuinicial : MonoBehaviour
     }
     public void Multijugador()
     {
-        Debug.Log("Aqui pondria mi multijugador,,, si tuviera uno; ñañaras");
-        Application.Quit();
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
+        
     }
     public void Salir()
     {
