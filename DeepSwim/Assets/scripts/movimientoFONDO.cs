@@ -11,10 +11,10 @@ public class movimientoFONDO : MonoBehaviour
     void Update()
     {
         fondo.material.mainTextureOffset = fondo.material.mainTextureOffset + new Vector2(0.2f, 0) * Time.deltaTime;
-        detalle[0].material.mainTextureOffset = detalle[0].material.mainTextureOffset + new Vector2(0.02f, 0) * Time.deltaTime;
-        detalle[1].material.mainTextureOffset = detalle[1].material.mainTextureOffset + new Vector2(0.3f, 0) * Time.deltaTime;
-        detalle[2].material.mainTextureOffset = detalle[2].material.mainTextureOffset + new Vector2(0.25f, 0) * Time.deltaTime;
-        detalle[3].material.mainTextureOffset = detalle[3].material.mainTextureOffset + new Vector2(0.3f, 0) * Time.deltaTime;
+        detalle[0].material.mainTextureOffset = detalle[0].material.mainTextureOffset + new Vector2(0.04f, 0) * Time.deltaTime;
+        detalle[1].material.mainTextureOffset = detalle[1].material.mainTextureOffset + new Vector2(0.5f, 0) * Time.deltaTime;
+        detalle[2].material.mainTextureOffset = detalle[2].material.mainTextureOffset + new Vector2(0.45f, 0) * Time.deltaTime;
+        detalle[3].material.mainTextureOffset = detalle[3].material.mainTextureOffset + new Vector2(0.5f, 0) * Time.deltaTime;
     
     }
 }
