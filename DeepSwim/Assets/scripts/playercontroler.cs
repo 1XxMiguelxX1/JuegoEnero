@@ -28,7 +28,7 @@ public class playercontroler : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetMouseButton(0))  // Mientras est� presionado el clic izquierdo
+        if (Input.GetMouseButton(0))  // Mientras esta presionado el clic izquierdo
         {
             rb.velocity = new Vector2(rb.velocity.x, fuerzaVuelo);
             Animator.SetBool("subida", true);
@@ -53,35 +53,6 @@ public class playercontroler : MonoBehaviour
         }
     }
 
-    /*  void Update()
-      {
-          if (Input.GetMouseButton(0))  // Mientras est� presionado el clic izquierdo
-          {
-              rb.velocity = new Vector2(rb.velocity.x, fuerzaVuelo);
-              Animator.SetBool("subida", true);
-          }
-          else
-          {
-              rb.velocity += new Vector2(0, -gravedad * Time.deltaTime);
-              Animator.SetBool("bajada", true);
-
-               Animator.SetBool("subida", false); // Se apaga cuando sueltas el clic
-          }
-      } */
-
-    /* void Update()
-     {
-         if (Input.GetMouseButton(0))  // Mientras est� presionado el clic izquierdo
-         {
-             rb.velocity = new Vector2(rb.velocity.x, fuerzaVuelo);
-            // Animator.SetBool("subida", fuerzaVuelo != 0.0f);
-         }
-
-         else
-         {
-             rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y - gravedad * Time.deltaTime);
-         }
-     } */
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
