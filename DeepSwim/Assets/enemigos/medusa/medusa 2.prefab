@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1026736978265397121}
   - component: {fileID: 1353628070716610829}
   - component: {fileID: 782831320266218101}
+  - component: {fileID: -3094265050834414981}
   m_Layer: 0
   m_Name: medusa 2
   m_TagString: Untagged
@@ -130,7 +131,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.48, y: 0.48}
+  m_Size: {x: 0.2, y: 0.2}
   m_EdgeRadius: 0
 --- !u!114 &1353628070716610829
 MonoBehaviour:
@@ -166,3 +167,16 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &-3094265050834414981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9214272330396311589}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 521b2d14e6f6aca4498d918fc43c98c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  duracionAnimacion: 1
