@@ -11,8 +11,14 @@ public class Menuinicial : MonoBehaviour
     }
     public void Multijugador()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex );
         
+    }
+
+    public void facil()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2); //los numeros son la escena en eel build settings
+
     }
     public void Salir()
     {
